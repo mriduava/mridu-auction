@@ -40,7 +40,7 @@ const TopNavbar = () => {
     <Container className="px-0 bg-light bg-gradient rounded-bottom shadow" fluid >
       <Container>
       <Navbar light expand="md" className="mb-0">
-        <Link to="/" className="mr-auto navbar-brand text-success font-weight-bold mb-0 pt-2 pb-0"><h3>ANBUD</h3></Link>
+        <Link to="/" className="mr-auto navbar-brand text-success font-weight-bold mb-0 pt-2 pb-0"><h3>MRIDU AUCTION</h3></Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav  className="ms-auto" navbar>

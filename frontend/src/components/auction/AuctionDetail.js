@@ -53,9 +53,9 @@ const AuctionDetail = (props) => {
     return(
       <Row className="my-5">
         <Col lg="6">
-          <img className="item-detail-img border border-secondary p-2 rounded" src={auctionItem.item_image} alt="mriduava@gmail.com" />
+          <img className="item-detail-img border border-secondary p-2 rounded card-image" src={auctionItem.item_image} alt="mriduava@gmail.com" />
           <div className="mt-3">
-            <h4 className="text-dark">{auctionItem.item_name}</h4>
+            <h4 className="text-dark text-capitalize">{auctionItem.item_name}</h4>
             <h6 className="text-secondary">{auctionItem.description}</h6>
             <hr />
             <div className="d-flex justify-content-between mt-3">

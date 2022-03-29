@@ -47,18 +47,19 @@ html {
 
 .card-image {
   width: 100%;
-  height: 15vw;
+  height: 300px;
   object-fit: cover;
 }
 
 .card:hover{
   cursor: pointer;
   box-shadow: 1px 5px 20px #888888;
+  transition: all 0.1s linear;
 }
 
 .item-detail-img{
   width: 100%;
-  height: 21vw;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -72,6 +73,6 @@ html {
 @media only screen and (max-width: 600px) {
   .card-image {
     width: 100%;
-    height: 45vw;
+    height: 50vw;
   }
 }

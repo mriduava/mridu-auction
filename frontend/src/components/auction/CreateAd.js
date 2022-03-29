@@ -29,7 +29,7 @@ const CreateAd = (props) => {
     let date = new Date(endDate);
     let end_date = date.getTime()
     let data = {
-      item_name: itemName,
+      item_name: itemName.toLowerCase(),
       description,
       item_image: imageUrl,
       initial_price: initialPrice,

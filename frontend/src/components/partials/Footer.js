@@ -7,10 +7,10 @@ const Footer = () => {
     <Container className="mt-1 text-center">
       <Row>        
         <div className="mx-auto pt-3">
-          <p className="mb-0 font-weight-bold">&copy; 2021 MARUF AHMED</p>
+          <p className="mb-0 font-weight-bold text-dark">&copy; 2022 MARUF AHMED</p>
           <hr className="my-0 bg-secondary"/>
-          <p className="mb-0">email: mriduava@gmail.com</p>
-          <p>github.com/mriduava/anbud</p>
+          <p className="mb-0">Email: mriduava@gmail.com</p>
+          <p>GitHub: <span className="text-info"><a href="https://github.com/mriduava/mridu-auction" target="_blank" rel="noopener noreferrer">github.com/mriduava/mridu-auction</a></span></p>
         </div>
       </Row>      
     </Container>

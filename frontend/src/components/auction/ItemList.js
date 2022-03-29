@@ -27,8 +27,8 @@ const ItemList = () => {
           <Card className="card">
             <CardImg top className="card-image" width="100%" src={item.item_image} alt="Anbud Image" />
             <CardBody>
-              <CardTitle tag="h5" className="text-dark">{item.item_name}</CardTitle>
-              <CardSubtitle tag="h6" className="mb-2 text-muted">{item.description}</CardSubtitle>
+              <CardTitle tag="h5" className="text-dark text-capitalize">{item.item_name}</CardTitle>
+              <CardSubtitle tag="h6" className="mb-2 text-muted">{item.description.substring(0, 63)}...</CardSubtitle>
               <hr />
               <div className="d-flex justify-content-between mt-3">
                 <CardText><span className="text-danger">{getAuctionBids(item.id) !==0?getAuctionBids(item.id):item.initial_price}</span><span className="text-secondary"> SEK</span></CardText>
