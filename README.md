@@ -1,7 +1,7 @@
 # MRIDU AUCTION (AUCTION SYSTEM)
-**
+
 An auction site where a user can create Auctions and can Bid at an Auction. Current bids update live on the screen for all visitors. That means all users from all locations using any browser can see the latest(leading) bids without refreshing the page. Fully responsive. Other functionalities are described below.
-**
+
 <br>
 > Back end : JAVA, SPRING BOOT, WEBSOCKET, POSTGRESQL<br>
 > Front end: REACT JS<br>
@@ -37,8 +37,8 @@ An auction site where a user can create Auctions and can Bid at an Auction. Curr
 * A user can bid to other user's auctions.
 * A user can not bid less than or equal to the initial/leading price.
 * A user can not bid to his/her own auction.
-* A user can search 'auction item/s' writing the itme name partially/fully in the search input field.
-* A user can see his/her own auctions (if any) clicking on 'MY AUCTIONS'.
+* A user can search 'auction item/s writing the item name partially/fully in the search input field.
+* A user can see his/her own auction/s (if any) clicking on 'MY AUCTIONS'.
 
 ## `FRONTEND`
 * Navigate to the "frontend" folder <br>
@@ -51,7 +51,7 @@ An auction site where a user can create Auctions and can Bid at an Auction. Curr
 
 ## `BACKEND (APIs)`
 * Run PostgreSQL server.<br>
-* Create a database with the name'auctiondb' into Databases. Does not need to create tables into the 'auctiondb' database. 
+* Create a database with the name 'auctiondb' into Databases. Does not need to create tables into the 'auctiondb' database. 
 * Open the 'backend' directory in intellij or in any other IDE<br>
 * Run the main class,'MriduauctionApplication' inside src/main/java/com.mriduava.mriduauction
 * Open http://localhost:9000 to view the API in the browser or in the Postman.
@@ -59,43 +59,44 @@ An auction site where a user can create Auctions and can Bid at an Auction. Curr
 
 ### `AUCTIONS`
 --------------------------------
-#### GET
-##### Get all auctions in the home page.
+** GET
+* Get all auctions as an array.
 http://localhost:9000/api/auctions
 
-#### POST
-##### Create new aution
+** POST
+* Create new aution
 http://localhost:9000/api/auctions
 
-#### GET
-##### Get a particulat auction by it ID
+** GET
+* Get a particulat auction by its ID
 http://localhost:9000/api/auctions/{id}
 
 ### BIDS
 --------------------------------
-#### GET
-##### Get all bids
+** GET
+* Get all bids
 http://localhost:9000/api/bids
 
-#### POST
-##### Create a new bid
+** POST
+* Create a new bid
 http://localhost:9000/api/bids
 
-#### GET
-##### Get bid of an auction item
+** GET
+* Get bid of an auction item
 http://localhost:9000/api/bids/{auctionId}
 
 ### USERS
 ---------------------------------
-#### GET
-##### Authenticate a user
+** GET
+*Authenticate a user
 http://localhost:9000/auth/user
 
-#### POST
-##### Register a user
+** POST
+* Register a user
 http://localhost:9000/api/register
+<br>
 
-
+##  
 
 &copy; 2021 MARUF AHMED<br> 
 Licensed under the [MIT License](LICENSE). 
